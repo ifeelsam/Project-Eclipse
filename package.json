@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "a youtube like full fleged app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ifeelsam/Project-Eclipse.git"
+  },
+  "keywords": [
+    "backend"
+  ],
+  "author": "Sam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ifeelsam/Project-Eclipse/issues"
+  },
+  "homepage": "https://github.com/ifeelsam/Project-Eclipse#readme"
+}
