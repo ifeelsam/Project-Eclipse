@@ -21,10 +21,12 @@ const userSchema = mongoose.Schema({
     trim: true,
     index: true,
     required: true,
-  }, watchHistory: {
-    type: Schema.Types.ObjectID,
-    ref: "videos",
-  },
+  }, watchHistory: [
+    {
+      type: Schema.Types.ObjectID,
+      ref: "videos",
+    }
+  ],
   avatar: {
     type: String,
     required: true,
